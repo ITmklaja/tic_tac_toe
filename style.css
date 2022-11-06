@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3E4452;
+}
+
+main{
+    width: 100vh;
+    height: 100vh;
+}
+
+.wid{
+    padding-top: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 30vw;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+    height: 10vw;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brbottom{
+    border-bottom: 1px solid black;
+}
+
+.brright{
+    border-right: 1px solid black;
+}
+
+.svgx{
+    height: 80%;
+    width: 80%;
+}
+
+.svgcircle{
+    height: 60%;
+    width: 60%;
+}
+
+#go{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 7rem;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+#p-go{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.svg-go-x{
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.svg-go-circle{
+    height: 7rem;
+    width: 7rem;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    padding-right: 1vw;
+}
+
+input{
+    padding: none;
+    margin: none;
+    width: 6vw;
+    height: 2vw;
+}
+
+button{
+    background-color: #3E4452;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1rem;
+    height: 4vw;
+    width: 4vw;
+}
